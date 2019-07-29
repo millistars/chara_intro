@@ -6,43 +6,30 @@
            <META NAME="millistars" CONTENT="">
   </HEAD>
 
-
-
-
-
  <BODY>
 
+   <div name="header" style="header"><H1>안 본 사람이 하는 캐릭터 소개</H1></div>
+   <div name="pagename" style="pagename"><H2>새 입력 링크 만들기</H2></div>
 
-<div name="header" style="header"><H1>�� �� ������ �ϴ� ĳ���� �Ұ�</H1></div>
-<div name="pagename" style="pagename"><H2>�� �Է� ��ũ ������</H2></div>
+   <!--폼 시작-->
+  <form action="formsubmit.jsp" method="post">
+   <INPUT TYPE=TEXT required="required" placeholder="작품명" NAME=formtitle SIZE=30 MAXLENGTH=30>안 본 사람이 하는 캐릭터 소개 <br><br>
+   <h3>캐릭터 목록</h3>
+   <p> - 캐릭터는 25개까지 추가 가능합니다<br>
+   		 - 이미지는 개당 개당 200kb까지 추가가능하며 큰 이미지는 200*250px 기준으로 축소되어 보여집니다<br>
+   		- 용량이 너무 크다면 이곳을 이용하세요~ (참고) <a href="https://tinypng.com"></a></p>
+   <label for="chara1">캐릭터1:</label>
+   <input type="file" name="fileName" accept="image/*" capture="camera" accept=".jpg,.jpeg,.png,.gif,.bmp">
 
+      <div class="button">
+      <button type="submit">입력 링크 생성</button>
+      </div>
 
-<!--�� ����-->
+   </form>
 
-    <div><form action="formsubmit.jsp" method="post">
-
-	<INPUT TYPE=TEXT required="required" placeholder="��ǰ��" NAME=formtitle SIZE=30 MAXLENGTH=30>�� �� ������ �ϴ� ĳ���� �Ұ� <br> <br>
-
-					<br>ĳ���� ���� <br><br>
-					<small> - ĳ���ʹ� 25������ �߰� �����մϴ�<br>
-					- �̹����� ���� ���� 200kb���� �߰������ϸ� ū �̹����� 200*250px �������� ���ҵǾ� �������ϴ�<br>
-					- �뷮�� �ʹ� ũ�ٸ� �̰��� �̿��ϼ���~ (����) <a=https://tinypng.com></a> <br>  </small>
-
-				<br><br>
-	<label for="chara1">ĳ����1:</label>
-    <input type="file" name="fileName" accept="image/*" capture="camera" accept=".jpg,.jpeg,.png,.gif,.bmp">
-    </div>
-
- <br> <br>
-   <div class="button">
-   <button type="submit">�Է� ��ũ ����</button>
-
-   </div>
-</form>
-
-<!--�ڹٽ�ũ��Ʈ �׼Ǹ�=formSubmit-->
-
-
+   <!--폼 끝-->
+   <!--자바스크립트 액션명=formSubmit-->
 
  </BODY>
+
 </HTML>
