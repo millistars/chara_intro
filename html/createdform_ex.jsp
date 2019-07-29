@@ -1,13 +1,20 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 5.0 Transitional//EN">
-<HTML>
-  <HEAD>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC"-//W3C//DTD HTML 5.0 Transitional//EN">
+<html>
+<head>
    <TITLE>안 본 사람이 하는 등장인물 소개</TITLE>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+   <!--<TITLE>안 본 사람이 하는 등장인물 소개</TITLE>
            <meta charset="utf-8">
            <META NAME="millistars" CONTENT="">
   </HEAD>
 
  <BODY>
-   <!--충돌해결-->
+
+ <% out.println("여기는 자바 프로그램에서 만들어주는 내용!"); %>
 
    <div name="header"><H1><a href="main.html" target="_blank">안본 사람이 하는 캐릭터 소개</a>
    </H1></div><div name="pagename"><H2><b>오렌지 이즈 더 뉴 블랙</b> 안 본 사람이 하는 캐릭터 소개</H2></div><br><br>
