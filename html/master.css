@@ -14,7 +14,7 @@ h1 {
       padding-top:150px;
     }
 
-ul{
+.contents_list {
   list-style: none;
   border-style:groove;
   text-align: center;
