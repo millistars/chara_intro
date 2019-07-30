@@ -1,0 +1,24 @@
+/*
+Title:			안본 사람이 하는 캐릭터 소개 v1
+Author:			리니어
+*/
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  line-height: 150%;
+  text-align: center;
+    }
+
+h1 {
+      padding: 50px;
+      padding-top:150px;
+    }
+
+ul{
+  list-style: none;
+  border-style:groove;
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+}
